@@ -1,0 +1,33 @@
+*{ background-color: #666;
+}
+
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 8px 12px;
+}
+
+h1{
+    background-color: #1f2937;
+    color: white;
+}
+
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: #1f2937;
+
+}
+
+li {
+    background-color: #1f2937;
+    color: white;
+}

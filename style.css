@@ -1,4 +1,6 @@
-*{ background-color: #666;
+*{ background-color: #1f2937;
+    color: #f9faf8;
+    font-family: Helvetica, sans-serif;
 }
 
 body{
@@ -12,17 +14,37 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f2937;
     padding: 8px 12px;
 }
 
+.awesome{
+    font-size: 48px;
+    flex-wrap: wrap;
+    width: 400px;
+    font-weight: 800;
+
+
+}
+.awesometext{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .hero
-{
-    display: flex;
+{   display: flex;
     height: 400px;
     width: auto;
-    justify-content: space-between;
+    padding: 100px;
 
+
+}
+
+.herobutton{
+    background-color: #3882f6;
+    font-size: 16px;
+    padding: 8px 24px;
+    border-radius: 12px;
+    font-weight: bold;
 }
 
 .borgar{
@@ -32,30 +54,32 @@ body{
 .heroleft{
     display: flex;
     flex:1;
-    background-color: #1f2937;
-    text-align: center;
-    justify-content: space-around;
+    justify-content: center;
+}
+
+.heroimg{
+    display: flex;
+    flex: 1;
 }
 
 .heroleftside{
     display: flex;
     flex-direction: column;
+    padding:50px 20px;
+    flex-wrap: wrap;
+    width: 500px;
+
 }
 
 .footer{
-    color: white;
     margin-top: auto;
 }
 
 h1{
-    background-color: #1f2937;
-    color: white;
     font-size: 40px;
 }
 
 a{
-    background-color: #1f2937;
-    color: white;
     text-decoration: none;
     font-size: 18px;
 }
@@ -66,13 +90,10 @@ ul {
     gap: 14px;
     margin: 0;
     padding: 0;
-    background-color: #1f2937;
 
 }
 
 li {
-    background-color: #1f2937;
-    color: white;
     padding: 0;
     margin: 0;
 }

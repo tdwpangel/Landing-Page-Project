@@ -109,11 +109,10 @@ li {
     height: 700px;
     background-color: white;
     padding: 10px 100px;
-    border: solid red;
+
 }
 .infoheader{
     text-align: center;
-    border: solid red;
     background-color: white;
     color: black;
     font-weight: bold;
@@ -123,7 +122,6 @@ li {
 .infocontent{
     display: flex;
     flex: 1;
-    border: solid red;
     height: 500px;
     background-color: white;
     justify-content: space-around;
@@ -151,7 +149,7 @@ li {
 }
 
 .placeholder:hover{
-    
+
 }
 
 .ptext{
@@ -167,13 +165,106 @@ li {
     height: 400px;
     background-color: #e5e7eb;
     padding: 10px 100px;
+    justify-content: center;
+    align-items: center;
 }
+
+.quote,
+.quotecontainer,
+.quotetext,
+.author{
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size:42px;
+    font-style: italic;
+    text-align: center;
+}
+
+.author{
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.quotecontainer{
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    padding: 0;
+
+}
+
+
+
 
 .action{
     display: flex;
     height: 400px;
-    background-color: white;
+    justify-content: center;
+    align-items: center;
     padding: 10px 100px;
+    background-color: white;
+}
+
+.action,
+.cta,
+.ctatext,
+.ctabold,
+.signup{
+    color: white;
+
+}
+
+.cta,
+.ctatext,
+.ctabold,
+.signup{
+    background: #3882f6;
+}
+
+
+.cta{
+    display: flex;
+    width: 1200px;
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.ctabold{
+    font-size: 36px;
+}
+.ctatext{
+    display: flex;
+    flex-direction: column;
+}
+
+.signup{
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+
+.ctabutton{
+    display: flex;
+    padding: 12px 42px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 12px;
+}
+
+.ctabutton:hover{
+    background-color: #4488f5;
+    border: 2px solid rgb(243, 242, 242);
+}
+.ctabutton:active{
+    background-color: #3882f6;
+    border: 2px solid white;
 }
 
 

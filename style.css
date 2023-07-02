@@ -2,37 +2,30 @@
     color: #f9faf8;
     font-family: Helvetica, sans-serif;
 }
-
 body{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     margin: 0;
 }
-
 h1{
     font-size: 40px;
 }
-
 a{
     text-decoration: none;
     font-size: 18px;
 }
-
 ul {
     list-style-type: none;
     display: flex;
     gap: 14px;
     margin: 0;
     padding: 0;
-
 }
-
 li {
     padding: 0;
     margin: 0;
 }
-
 .header ,
 .footer {
     display: flex;
@@ -43,29 +36,22 @@ li {
 .header{
     border-bottom: 1px solid gray;
 }
-
 .awesome{
     font-size: 48px;
     flex-wrap: wrap;
     width: 400px;
     font-weight: 800;
-
-
 }
 .awesometext{
     font-size: 18px;
     color: #e5e7eb;
 }
-
 .hero
 {   display: flex;
     height: 400px;
     width: auto;
     padding: 10px 100px;
-
-
 }
-
 .herobutton{
     background-color: #3882f6;
     font-size: 16px;
@@ -73,35 +59,28 @@ li {
     border-radius: 12px;
     font-weight: bold;
 }
-
 .borgar{
     height: 399px;
-
 }
 .heroleft{
     display: flex;
     flex:1;
     justify-content: center;
 }
-
 .heroimg{
     display: flex;
     flex: 1;
 }
-
 .heroleftside{
     display: flex;
     flex-direction: column;
     padding:50px 20px;
     flex-wrap: wrap;
     width: 500px;
-
 }
-
 .footer{
     margin-top: auto;
 }
-
 .information{
     display: flex;
     justify-content: center;
@@ -109,7 +88,6 @@ li {
     height: 700px;
     background-color: white;
     padding: 10px 100px;
-
 }
 .infoheader{
     text-align: center;
@@ -118,7 +96,6 @@ li {
     font-weight: bold;
     height: 40px;
 }
-
 .infocontent{
     display: flex;
     flex: 1;
@@ -127,7 +104,6 @@ li {
     justify-content: space-around;
     align-items: center;
 }
-
 .info1,
 .info2,
 .info3,
@@ -141,17 +117,10 @@ li {
     border-radius: 12px;
     justify-content: center;
 }
-
 .placeholder{
     width: 500px;
     height: 350px;
-
 }
-
-.placeholder:hover{
-
-}
-
 .ptext{
     background-color: white;
     text-align: center;
@@ -159,7 +128,6 @@ li {
     color: black;
     font-weight: 100;
 }
-
 .quote{
     display: flex;
     height: 400px;
@@ -168,7 +136,6 @@ li {
     justify-content: center;
     align-items: center;
 }
-
 .quote,
 .quotecontainer,
 .quotetext,
@@ -179,25 +146,18 @@ li {
     font-style: italic;
     text-align: center;
 }
-
 .author{
     font-weight: bold;
     font-style: normal;
     display: flex;
     justify-content: flex-end;
 }
-
 .quotecontainer{
     display: flex;
     flex-direction: column;
     width: 1400px;
     padding: 0;
-
 }
-
-
-
-
 .action{
     display: flex;
     height: 400px;
@@ -206,7 +166,6 @@ li {
     padding: 10px 100px;
     background-color: white;
 }
-
 .action,
 .cta,
 .ctatext,
@@ -215,15 +174,12 @@ li {
     color: white;
 
 }
-
 .cta,
 .ctatext,
 .ctabold,
 .signup{
     background: #3882f6;
 }
-
-
 .cta{
     display: flex;
     width: 1200px;
@@ -232,7 +188,6 @@ li {
     align-items: center;
     border-radius: 12px;
 }
-
 .ctabold{
     font-size: 36px;
 }
@@ -240,13 +195,10 @@ li {
     display: flex;
     flex-direction: column;
 }
-
 .signup{
     color: #e5e7eb;
     font-size: 16px;
 }
-
-
 .ctabutton{
     display: flex;
     padding: 12px 42px;
@@ -257,7 +209,6 @@ li {
     border: 2px solid white;
     border-radius: 12px;
 }
-
 .ctabutton:hover{
     background-color: #4488f5;
     border: 2px solid rgb(243, 242, 242);
